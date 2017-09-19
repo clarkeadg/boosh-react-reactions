@@ -1,0 +1,18 @@
+// A list of all actions in the system.
+import { createTypes } from 'reduxsauce'
+
+export default createTypes(`
+
+  GET_REACTIONS_REQUEST
+  GET_REACTIONS_SUCCESS
+  GET_REACTIONS_FAILURE
+
+  ADD_REACTION_REQUEST
+  ADD_REACTION_SUCCESS
+  ADD_REACTION_FAILURE
+
+  REMOVE_REACTION_REQUEST
+  REMOVE_REACTION_SUCCESS
+  REMOVE_REACTION_FAILURE
+
+`)
