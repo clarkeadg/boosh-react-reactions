@@ -10,7 +10,7 @@ const ReactionsRoutes     = require('./routes');
 module.exports = {
   ReactionsButton:        ReactionsButton.default,
   ReactionsCollection:    ReactionsCollection.default,
-  ReactionsActions:       ReactionsActions,
+  ReactionsActions:       ReactionsActions.default,
   ReactionsSaga:          ReactionsSaga.default,
   ReactionsApi:           ReactionsApi.default,
   ReactionsReducer:       ReactionsReducer.default,
